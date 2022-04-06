@@ -36,7 +36,3 @@ Data de entrega 06/04 às 23:59h.
 Conclusão 
 
 Parabéns! Você acaba de finalizar o primeiro checkpoint da disciplina de Front-end I.
-# checkpoint-cidade
-# checkpoint-cidade
-# minha-cidade-checkpoint
-# minha-cidade-checkpoint
