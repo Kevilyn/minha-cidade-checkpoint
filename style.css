@@ -20,11 +20,13 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px;
   color: white;
   font-family: 'Sarala', sans-serif;
   flex-wrap: wrap;
+  font-size: 30px;
+  gap: 10px;
 }
 
 .cabecalho-imagem {
@@ -33,6 +35,9 @@ body {
 
 .cabecalho-menu {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 32px;
 }
 
@@ -93,7 +98,7 @@ body {
   flex-direction: column;
   gap: 10px;
   width: 45%;
-  min-width: 450px;
+  min-width: 300px;
 }
 
 .conteudo-principal-escrito {
@@ -106,11 +111,10 @@ body {
   justify-content: center;
   align-items: center;
   border: 3px solid #fff;
-  padding: 10px 80px;
+  padding: 10px;
   flex-direction: column;
   text-align: center;
 }
-
 
 .conteudo-principal-escrito-titulo {
   font-family: 'Righteous', cursive;
@@ -128,13 +132,13 @@ body {
 
 .conteudo-principal-escrito-botao {
   background-color: #ECD6C4;
-  width: 180px;
-  height: 60px;
+  width: 150px;
+  height: 80px;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   font-family: 'Sarala', sans-serif;
-  font-weight: 400;
+  font-weight: 180;
   font-size: 24px;
   color: #2F2325;
 }
@@ -150,7 +154,7 @@ body {
   justify-self: right;  
   gap: 24px;
   width: 40%;
-  min-width: 400px;
+  min-width: 200px;
   max-width: 600px;
 }
 
@@ -238,6 +242,7 @@ body {
   font-family: 'Sarala', sans-serif;
   text-align: justify;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
 .quadrado h3{
@@ -276,9 +281,11 @@ body {
 
 .video iframe{
   margin: 25px ;
-  width: 516px;
-  height: 326px;
-  border-radius: 20px; 
+  /* min-width: 300px; */
+  width: 70%;
+  min-height: 320px;
+  border-radius: 20px;
+  /* max-width: 1200px; */
 }
 
 .contato{
@@ -294,7 +301,6 @@ body {
   gap: 20px;
   flex-wrap: wrap;
 }
-
 
 footer{
   background-color: #08021f;
@@ -338,7 +344,18 @@ footer p{
     flex-direction: column;
     gap: 15px;
     flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+  }
 
+  .nome-cidade{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100%;
   }
 
   .cabecalho-imagem{
@@ -362,6 +379,7 @@ footer p{
 
   .cabecalho-menu-item{
     width: 80%;
+    padding: 15px;
   }
 
   .conteudo-principal{
@@ -369,7 +387,93 @@ footer p{
     justify-content:center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    gap: 15px;
   }
 
+  .conteudo-principal-esquerda{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 15px;
+  }
+
+  .conteudo-principal-escrito {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .conteudo-secundario{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 15px;
+  }
+
+.banner-imagem{
+  width: 80%;
+}
+
+  .curiosidades{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .cards{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+.item{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+  max-width: 400;
+  min-width: 260;
+}
+
+.quadrado{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.video{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
 
 }
