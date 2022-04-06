@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-html {
-  font-size: 62.5%;
-}
-
-html, 
-
-body {
-  font-size: 1.6rem;
-}
-
 body {
   font-size: 100%;
   background: #08021f;
