@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
 body {
   font-size: 100%;
   background: #08021f;
@@ -20,6 +13,18 @@ body {
   padding: 20px;
   color: white;
   font-family: 'Sarala', sans-serif;
+  flex-wrap: wrap;
+}
+
+.nome-cidade{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+  font-family: 'Sarala', sans-serif;
+  flex-wrap: wrap;
 }
 
 .cabecalho-imagem {
@@ -42,6 +47,7 @@ body {
 .conteudo {
   margin-bottom: 48px;
   border-top: 0.4px solid #FFF2E7;
+  flex-wrap: wrap;
 }
 
 .gradiente{
@@ -53,6 +59,7 @@ body {
   background-size: 400% 400%;
   animation: change 10s ease-in-out infinite;
   padding: 30px 0;
+  flex-wrap: wrap;
 }
 
 @keyframes change {
@@ -75,6 +82,7 @@ body {
   width: 90%;
   padding: 30px 0;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .conteudo-principal-esquerda{
@@ -184,6 +192,7 @@ body {
   font-weight: bold;
   padding: 40px 0;
   background: #08021f;
+  flex-wrap: wrap;
 }
 
 .curiosidades h2{
@@ -219,7 +228,6 @@ body {
 
 .quadrado{ 
   display: flex;
-  text-align: ce nter;    
   align-items: center;
   flex-direction: column;
   max-width: 220px;
@@ -229,6 +237,7 @@ body {
   color: #08021f;
   font-family: 'Sarala', sans-serif;
   text-align: justify;
+  flex-wrap: wrap;
 }
 
 .quadrado h3{
@@ -262,6 +271,7 @@ body {
   text-align: center;
   background: #eaeaea;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .video iframe{
@@ -282,6 +292,7 @@ body {
   font-size: 20px;
   text-align: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 
@@ -319,22 +330,46 @@ footer p{
 }
 
 @media only screen and (max-widht: 720px){
-  .content-cabecalho{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+  .cabecalho{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+
   }
 
-  .menu {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  align-items: center;
+  .cabecalho-imagem{
+  width: 80%;
+  min-width: 300px;
   }
 
-.menu p{
-  width: 70%;
-}
+  .cabecalho h1{
+  width: 80%;
+  }
+
+  .cabecalho-menu{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .cabecalho-menu-item{
+    width: 80%;
+  }
+
+  .conteudo-principal{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+  }
+
 
 }
