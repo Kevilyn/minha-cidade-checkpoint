@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
-html {
-  font-size: 62.5%;
-}
-
-html, 
-
-body {
-  font-size: 1.6rem;
-}
 
 body {
   font-size: 100%;
@@ -66,7 +57,7 @@ body {
 }
 
 .gradiente{
-  display: flex;
+  display: table;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -92,7 +83,8 @@ body {
 .conteudo-principal {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+    justify-content: center;
+  /* justify-content: space-between; */
   flex-direction: row;
   width: 90%;
   padding: 30px 0;
@@ -302,7 +294,7 @@ body {
 
 .contato{
   display: flex;
-  justify-content: space-center;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   font-weight: bold;
@@ -486,6 +478,7 @@ footer p{
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+  margin: 10px;
 }
 
 }
